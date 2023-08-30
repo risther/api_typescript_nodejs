@@ -1,1 +1,1 @@
-worker: npm start
+compile: tsc && node ./dist/app.js
