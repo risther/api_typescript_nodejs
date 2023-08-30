@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon ./src/app.ts",
     "build": "webpack",
-    "start": "node ./dist/app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
