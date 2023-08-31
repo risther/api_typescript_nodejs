@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./src/app.ts",
-    "heroku-prebuild": "tsc",
     "start": "node ./dist/app.js",
     "heroku-postbuild": "npm install -g typescript",
+    "heroku-prebuild": "tsc",
     "postinstall": "tsc"
   },
   "keywords": [],
